@@ -55,7 +55,13 @@ const Article = ({
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button href={url} variant="outlined" size="small" color="primary">
+        <Button
+          href={url}
+          target="_blank"
+          variant="outlined"
+          size="small"
+          color="primary"
+        >
           Article Link
         </Button>
       </CardActions>
